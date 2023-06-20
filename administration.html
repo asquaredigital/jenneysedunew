@@ -32,7 +32,6 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <script>
         $(function () {
@@ -66,22 +65,175 @@
             border-width: thick;
         }
     </style>
+    <style> /*logo*/
+
+        .header_part .logo img
+                {
+                    max-width: 300px;
+                }
+        @media (min-width: 768px) {
+            .header_part .logo img
+                {
+                    max-width: 300px;
+                    margin-left: -100px;
+                }
+                }
+         @media (max-width: 767px) {
+             .header_part .logo img
+                {
+                    max-width: 300px;
+                }
+                }
+        
+        </style>
+        
+        <style>
+        
+            @media (max-width: 767px) {
+        .btn-apply {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+            
+        }
+        .btn-apply:hover {
+            background-color: #333;
+        }
+        .btn-apply {
+            display: inline-block;
+            background-color: #2572ff;
+            color: #fff;
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+      
+    </style>
+        
 
 </head>
 
 <body>
     <!-- start Preloader  -->
-    <div class="preloder_part">
-        <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
-        </div>
-    </div>
+
     <!-- End Preloader  -->
 
     <!-- header part here -->
-    <header id="header"></header>
-    <!-- header part end -->
+    <header class="header_part">
+        <div class="sub_header section_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-7 col-md-7">
+                       
+                    </div>
+                    <div class="col-xl-8 col-lg-5 col-md-5">
+                        <div class="header_contact_info">
+                            <a href="tel:+4641468425"><i class="icon_phone"></i>+91 63698 38741</a>
+                            <a href="mailto:admin@example.com"><i class="icon_mail_alt"></i>jenneyseducation@yahoo.com</a>
+                            <a href="application.html">
+                                <button class="btn-apply">Apply Now</button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header_iner d-flex justify-content-between align-items-center">
+                            <div class="sidebar_icon troggle_icon d-lg-none">
+                                <i class="icon_menu"></i>
+                            </div>
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logonew2.png" ></a>
+                            </div>
+    
+                            <nav class="navbar_bar">
+                                <ul>
+                                    <li class="mega_menu_dropdown">
+                                        <a class=" nav-link " href="index.html">Home</a>
+                                    </li>
+                                    <li class="mega_menu_dropdown">
+                                        <a class="mega_menu_dropdown-toggle nav-link" href="#">About Us</a>
+                                        <ul>
+                                           <!-- <li><a href="about.html">College History</a></li> -->
+                                            <li><a href="about.html#vis">Vision</a></li>
+                                            <li><a href="about.html#mis">Mission</a></li>
+                                            <li><a href="about.html#obj">Objectives</a></li>
+                                        </ul>
+                                    </li>
+                            
+                                    <li class="mega_menu_dropdown">
+                                        <a class="mega_menu_dropdown-toggle nav-link" href="#">Administration</a>
+                                        <ul>
+                                          <li><a href="administration.html#founder">Founder's Message</a></li>
+                                            <li><a href="administration.html#correspondent">Correspondent</a></li>
+                                            <li><a href="administration.html#co-correspondent">Co-Correspondent</a></li>
+                                            <li><a href="administration.html#principal">Principal</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="mega_menu_dropdown">
+                                        <a class="mega_menu_dropdown-toggle nav-link" href="#">Academics</a>
+                                        <ul>
+                                            <!-- <li><a href="course.html#actionplan">Action Plan</a></li> -->
+                                            <li><a href="courses.html#bed">B.Ed</a></li>
+                                            <li><a href="courses.html#med">M.Ed</a></li>
+                                            <li><a href="alumni.html">Alumni</a></li>
+                                            <!-- <li><a href="eligibility.html">Eligibility</a></li>
+                                            <li><a href="course.html">TNTEU</a></li>
+                                            <li><a href="eligibility.html">NCTE</a></li>
+                                            <li><a href="course.html">Admissions</a></li>
+                                            <li><a href="placement.html">Placement</a></li>
+                                            <li><a href="alumni.html">Alumni</a></li> -->
+                                        </ul>
+                                    </li>
+                                     <li class="mega_menu_dropdown">
+                            
+                                        <a class="mega_menu_dropdown-toggle nav-link" href="#">Faculty</a>
+                                        <ul>
+                                          <li><a href="faculty.html">Teaching</a></li>
+                                          <li><a href="faculty_nt.html">Non Teaching</a></li>
+                                        </ul>
+                            
+                                    </li>
+                                    <li class="mega_menu_dropdown">
+                                        <a class="nav-link" href="gallery.html">Gallery</a>
+                                        <!-- <ul>
+                                            <li><a href="gallery.html">Curricular Activities</a></li>
+                                            <li><a href="gallery.html">Co-Curricular Activities</a></li>
+                                            <li><a href="gallery.html">Celebrations</a></li>
+                                        </ul> -->
+                                    </li>
+                                   
+                            
+                                    <!-- <li class="mega_menu_dropdown">
+                                        <a class="nav-link" href="#">Events</a>
+                                    </li> -->
+                                    <li><a href="contact.html">Contact Us</a></li>
+                            
+                                     <li class="mega_menu_dropdown">
+                                        <a class="mega_menu_dropdown-toggle nav-link" href="#">Links</a>
+                                        <ul>
+                                            <li><a href="http://ncte-india.org/ncte_new/" target="_blank">TNTEU</a></li>
+                                            <li><a href="https://www.tnteu.ac.in/" target="_blank">NCTE</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </header>    <!-- header part end -->
 
     <!-- breadcrumb part -->
     <section class="breadcrumb_part blog_grid_bg">

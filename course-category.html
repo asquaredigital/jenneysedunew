@@ -31,16 +31,60 @@
     <link rel="stylesheet" href="css/courses.css"/>
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css"/>
+    <style> /*logo*/
+
+        .header_part .logo img
+                {
+                    max-width: 300px;
+                }
+        @media (min-width: 768px) {
+            .header_part .logo img
+                {
+                    max-width: 300px;
+                    margin-left: -100px;
+                }
+                }
+         @media (max-width: 767px) {
+             .header_part .logo img
+                {
+                    max-width: 300px;
+                }
+                }
+        
+        </style>
+        
+        <style>
+        
+            @media (max-width: 767px) {
+        .btn-apply {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+            
+        }
+        .btn-apply:hover {
+            background-color: #333;
+        }
+        .btn-apply {
+            display: inline-block;
+            background-color: #2572ff;
+            color: #fff;
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+      
+    </style>
+        
 </head>
 
 <body>
     <!-- start Preloader  -->
-    <div class="preloder_part">
-        <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
-        </div>
-    </div>
+   
     <!-- End Preloader  -->
 
     <!-- header part here -->

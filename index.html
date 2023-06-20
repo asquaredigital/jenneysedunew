@@ -66,8 +66,68 @@
    
 </style>
 
+
+
 <style>
-    /* Common styles for both mobile and desktop */
+    /* slider*/
+    
+
+        
+    @media (max-width: 767px) {
+        
+        .banner_iner h2 {
+            font-size: 18px!important; /* Adjust the font size for mobile */
+            text-align: center;
+            margin-left: 1px!important;
+        }
+        .banner_iner h5 {
+            font-size: 12px!important; /* Adjust the font size for mobile */
+            text-align: center;
+            line-height: 1px;
+            margin-top: -30px;
+        }
+       
+
+   
+}
+</style>
+
+<style> /*logo*/
+
+.header_part .logo img
+        {
+            max-width: 300px;
+        }
+@media (min-width: 768px) {
+    .header_part .logo img
+        {
+            max-width: 300px;
+            margin-left: -100px;
+        }
+        }
+ @media (max-width: 767px) {
+     .header_part .logo img
+        {
+            max-width: 300px;
+        }
+        }
+
+</style>
+
+<style> /*Apply*/   
+
+
+@media (max-width: 767px) {
+    .btn-apply {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        
+    }
+    .btn-apply:hover {
+        background-color: #333;
+    }
     .btn-apply {
         display: inline-block;
         background-color: #2572ff;
@@ -79,25 +139,7 @@
         border-radius: 4px;
         transition: background-color 0.3s ease;
     }
-
-    /* Styles specific to mobile */
-    @media (max-width: 767px) {
-        .btn-apply {
-            display: block;
-            width: 100%;
-            text-align: center;
-        }
-        .banner_iner h2 {
-            font-size: 20px!important; /* Adjust the font size for mobile */
-            text-align: center;
-            margin-left: 1px!important;
-        }
-
-    /* Hover style for the button */
-    .btn-apply:hover {
-        background-color: #333;
-    }
-}
+  
 </style>
 
 
@@ -145,10 +187,81 @@
                             <i class="icon_menu"></i>
                         </div>
                         <div class="logo">
-                            <a href="index.html"><img src="img/logo.png" width="50%" height="50%" alt="#"></a>
+                            <a href="index.html"><img src="img/logonew2.png" ></a>
                         </div>
 
-                      <nav id="header1"></nav>
+                        <nav class="navbar_bar">
+                            <ul>
+                                <li class="mega_menu_dropdown">
+                                    <a class=" nav-link " href="index.html">Home</a>
+                                </li>
+                                <li class="mega_menu_dropdown">
+                                    <a class="mega_menu_dropdown-toggle nav-link" href="#">About Us</a>
+                                    <ul>
+                                       <!-- <li><a href="about.html">College History</a></li> -->
+                                        <li><a href="about.html#vis">Vision</a></li>
+                                        <li><a href="about.html#mis">Mission</a></li>
+                                        <li><a href="about.html#obj">Objectives</a></li>
+                                    </ul>
+                                </li>
+                        
+                                <li class="mega_menu_dropdown">
+                                    <a class="mega_menu_dropdown-toggle nav-link" href="#">Administration</a>
+                                    <ul>
+                                      <li><a href="administration.html#founder">Founder's Message</a></li>
+                                        <li><a href="administration.html#correspondent">Correspondent</a></li>
+                                        <li><a href="administration.html#co-correspondent">Co-Correspondent</a></li>
+                                        <li><a href="administration.html#principal">Principal</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mega_menu_dropdown">
+                                    <a class="mega_menu_dropdown-toggle nav-link" href="#">Academics</a>
+                                    <ul>
+                                        <!-- <li><a href="course.html#actionplan">Action Plan</a></li> -->
+                                        <li><a href="courses.html#bed">B.Ed</a></li>
+                                        <li><a href="courses.html#med">M.Ed</a></li>
+                                        <li><a href="alumni.html">Alumni</a></li>
+                                        <!-- <li><a href="eligibility.html">Eligibility</a></li>
+                                        <li><a href="course.html">TNTEU</a></li>
+                                        <li><a href="eligibility.html">NCTE</a></li>
+                                        <li><a href="course.html">Admissions</a></li>
+                                        <li><a href="placement.html">Placement</a></li>
+                                        <li><a href="alumni.html">Alumni</a></li> -->
+                                    </ul>
+                                </li>
+                                 <li class="mega_menu_dropdown">
+                        
+                                    <a class="mega_menu_dropdown-toggle nav-link" href="#">Faculty</a>
+                                    <ul>
+                                      <li><a href="faculty.html">Teaching</a></li>
+                                      <li><a href="faculty_nt.html">Non Teaching</a></li>
+                                    </ul>
+                        
+                                </li>
+                                <li class="mega_menu_dropdown">
+                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                    <!-- <ul>
+                                        <li><a href="gallery.html">Curricular Activities</a></li>
+                                        <li><a href="gallery.html">Co-Curricular Activities</a></li>
+                                        <li><a href="gallery.html">Celebrations</a></li>
+                                    </ul> -->
+                                </li>
+                               
+                        
+                                <!-- <li class="mega_menu_dropdown">
+                                    <a class="nav-link" href="#">Events</a>
+                                </li> -->
+                                <li><a href="contact.html">Contact Us</a></li>
+                        
+                                 <li class="mega_menu_dropdown">
+                                    <a class="mega_menu_dropdown-toggle nav-link" href="#">Links</a>
+                                    <ul>
+                                        <li><a href="http://ncte-india.org/ncte_new/" target="_blank">TNTEU</a></li>
+                                        <li><a href="https://www.tnteu.ac.in/" target="_blank">NCTE</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
                         
                     </div>
                 </div>
