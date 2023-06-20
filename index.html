@@ -33,11 +33,11 @@
 
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
 
     <script>
         $(function () {
-            $("#header").load("header.html");
+            $("#header1").load("header.html");
             $("#footer").load("footer.html");
         });
     </script>
@@ -55,21 +55,107 @@
             max-width: 275px;
         }
     </style>
+    <style>
+        .breadcrumb_part .breadcrumb_iner {
+        text-align: center;
+        margin-top: 1px !important;
+    }
+    .breadcrumb_part {
+        height: 350px !important;
+    }
+   
+</style>
+
+<style>
+    /* Common styles for both mobile and desktop */
+    .btn-apply {
+        display: inline-block;
+        background-color: #2572ff;
+        color: #fff;
+        padding: 10px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Styles specific to mobile */
+    @media (max-width: 767px) {
+        .btn-apply {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    
+
+    /* Hover style for the button */
+    .btn-apply:hover {
+        background-color: #333;
+    }
+</style>
+
+
+
+
+
+
+    
+   
 </head>
 
 <body>
     <!-- start Preloader  -->
-    <div class="preloder_part">
-        <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
-        </div>
-    </div>
+   
     <!-- End Preloader  -->
 
     <!-- header part here -->
-    <header id="header"></header>
-    <!-- header part end -->
+ <!-- header part here -->
+ <header class="header_part">
+    <div class="sub_header section_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-7 col-md-7">
+                   
+                </div>
+                <div class="col-xl-8 col-lg-5 col-md-5">
+                    <div class="header_contact_info">
+                        <a href="tel:+4641468425"><i class="icon_phone"></i>+91 63698 38741</a>
+                        <a href="mailto:admin@example.com"><i class="icon_mail_alt"></i>jenneyseducation@yahoo.com</a>
+                        <a href="application.html">
+                            <button class="btn-apply">Apply Now</button>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_iner d-flex justify-content-between align-items-center">
+                        <div class="sidebar_icon troggle_icon d-lg-none">
+                            <i class="icon_menu"></i>
+                        </div>
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo.png" width="50%" height="50%" alt="#"></a>
+                        </div>
+
+                      <nav id="header1"></nav>
+                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</header>
+<!-- header part end -->
+
+  <!-- header part end -->
 
     <!-- slider part here -->
     <section class="banner_part owl-carousel">
@@ -84,7 +170,7 @@
                                 ACCREDITED WITH 'B' GRADE BY NAAC.
 
                             </h5>
-                            <a href="course-list.html" class="btn_2">Our Courses</a>
+                            <a href="courses.html" class="btn_2">Our Courses</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +187,7 @@
                                 ACCREDITED WITH 'B' GRADE BY NAAC.
 
                             </h5>
-                            <a href="course-list.html" class="btn_2">Our Courses</a>
+                            <a href="courses.html" class="btn_2">Our Courses</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +204,7 @@
                                 ACCREDITED WITH 'B' GRADE BY NAAC.
 
                             </h5>
-                            <a href="course-list.html" class="btn_2">Our Courses</a>
+                            <a href="courses.html" class="btn_2">Our Courses</a>
                         </div>
                     </div>
                 </div>
@@ -388,30 +474,30 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-6">
                     <div class="motivation_content">
-                        <h2>Your motivition & attention will teach you best</h2>
+                        <h2>Short About Us</h2>
                         <p>Cack gormless young delinquent that bits and bobs he nicked it mush, spiffing smashing he
                             legged it have it codswallop.</p>
                         <ul class="nav nav-tabs" id="motivation_content_tab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active single_item" data-toggle="tab" href="#Design" role="tab"
+                                <a class="nav-link active single_item" data-toggle="tab" href="" role="tab"
                                     aria-selected="true" id="Design-tab" data-aos="fade-up" data-aos-duration="700">
                                     <i class="icon_book_alt"></i>
-                                    <p>Graphics Design</p>
+                                    <p>Courses</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link single_item" data-toggle="tab" href="#Development" role="tab"
+                                <a class="nav-link single_item" data-toggle="tab" href="" role="tab"
                                     aria-selected="false" id="Development-tab" data-aos="fade-up"
                                     data-aos-duration="800">
-                                    <i class="icon_key"></i>
-                                    <p>Self Development</p>
+                                    <i class="icon_book_alt"></i>
+                                    <p>Gallery</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link single_item" data-toggle="tab" href="#Software" role="tab"
+                                <a class="nav-link single_item" data-toggle="tab" href="" role="tab"
                                     aria-selected="false" id="Software-tab" data-aos="fade-up" data-aos-duration="900">
                                     <i class="icon_ribbon_alt"></i>
-                                    <p>IT & Software</p>
+                                    <p>Faculties</p>
                                 </a>
                             </li>
                         </ul>
@@ -422,19 +508,19 @@
         <div class="tab-content" id="motivation_content_tabcontent">
             <div class="tab-pane fade show active" id="Design" role="tabpanel" aria-labelledby="Design-tab">
                 <div class="motivation_video">
-                    <a href="https://www.youtube.com/watch?v=f3NWvUV8MD8" class="animated_play_button popup_youtube">
+                    <a href="WhatsApp Video 2023-06-20 at 10.49.28.mp4" class="animated_play_button popup_youtube">
                         <span class="flaticon-play-button"></span></a>
                 </div>
             </div>
             <div class="tab-pane fade" id="Development" role="tabpanel" aria-labelledby="Development-tab">
                 <div class="motivation_video bg_1">
-                    <a href="https://www.youtube.com/watch?v=x4q86IjJFag" class="animated_play_button popup_youtube">
+                    <a href="WhatsApp Video 2023-06-20 at 10.49.28.mp4" class="animated_play_button popup_youtube">
                         <span class="flaticon-play-button"></span></a>
                 </div>
             </div>
             <div class="tab-pane fade" id="Software" role="tabpanel" aria-labelledby="Software-tab">
                 <div class="motivation_video bg_2">
-                    <a href="https://www.youtube.com/watch?v=XRCIzZHpFtY" class="animated_play_button popup_youtube">
+                    <a href="WhatsApp Video 2023-06-20 at 10.49.28.mp4" class="animated_play_button popup_youtube">
                         <span class="flaticon-play-button"></span></a>
                 </div>
             </div>
@@ -561,7 +647,6 @@
     <!-- footer part end -->
 
     <!-- jquery slim -->
-    <script src="js/jquery-3.4.1.min.js"></script>
     <!-- popper js -->
     <script src="js/popper.min.js"></script>
     <!-- bootstarp js -->
