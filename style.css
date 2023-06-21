@@ -6128,3 +6128,19 @@ html[dir="rtl"] .lp-archive-courses .course-summary {
 .course_category_item, .blog_slider, .motivation, .popular_course {
   direction: ltr;
 }
+
+
+
+/* Customized CSS */
+
+.breadcrumb_part{
+height:350px !important;
+}
+
+.breadcrumb_part .breadcrumb_iner {
+  margin-top: 45px !important;
+}
+
+.footer_section .copyright_part {
+  margin-top: 1px !important;
+}
