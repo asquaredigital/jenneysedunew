@@ -1871,19 +1871,19 @@ a:focus, .button:focus, button:focus, .btn:focus {
   }
 }
 .banner_part .bg_1 {
-  background-image: url("img/banner.png");
+  background-image: url("img/banner_2.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .banner_part .bg_2 {
-  background-image: url("img/banner_1.png");
+  background-image: url("img/banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .banner_part .bg_3 {
-  background-image: url("img/banner_2.png");
+  background-image: url("img/banner_1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3005,7 +3005,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 .motivation_video {
-  background-image: url("img/motivation_video_bg.png");
+  background-image: url("img/Gallery/Infra/i2.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6144,3 +6144,11 @@ height:350px !important;
 .footer_section .copyright_part {
   margin-top: 1px !important;
 }
+
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
