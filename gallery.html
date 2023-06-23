@@ -95,6 +95,9 @@
         transition: background-color 0.3s ease;
     }
   
+  .gallery img{
+    margin-top: 3px;
+  }
 </style>
 </head>
 
@@ -145,7 +148,7 @@
                             <nav class="navbar_bar">
                                 <ul>
                                     <li class="mega_menu_dropdown">
-                                        <a class=" nav-link " href="index.html">Home</a>
+                                        <a class=" nav-link active" href="index.html">Home</a>
                                     </li>
                                     <li class="mega_menu_dropdown">
                                         <a class="mega_menu_dropdown-toggle nav-link" href="#">About Us</a>
@@ -178,7 +181,7 @@
                                     </li>
 
                                     <li class="mega_menu_dropdown">
-                                        <a class="mega_menu_dropdown-toggle nav-link " href="#">Faculty</a>
+                                        <a class="mega_menu_dropdown-toggle nav-link" href="#">Faculty</a>
                                         <ul>
                                             <li><a href="faculty.html">Teaching</a></li>
                                             <li><a href="faculty_nt.html">Non Teaching</a></li>
@@ -186,7 +189,7 @@
                                     </li>
 
                                     <li class="mega_menu_dropdown">
-                                        <a class="mega_menu_dropdown-toggle nav-link active" href="#">Gallery</a>
+                                        <a class="mega_menu_dropdown-toggle nav-link" href="#">Gallery</a>
                                         <ul>
                                             <li><a href="gallery.html">Image Gallery</a></li>
                                             <li><a href="events.html">Events</a></li>
@@ -204,8 +207,8 @@
                                                 <a class="mega_menu_dropdown-toggle nav-link" href="#">Links</a>
                                                 <ul>
                                                     <li><a href="http://ncte-india.org/ncte_new/"
-                                                            target="_blank">TNTEU</a></li>
-                                                    <li><a href="https://www.tnteu.ac.in/" target="_blank">NCTE</a></li>
+                                                            target="_blank">NCTE</a></li>
+                                                    <li><a href="https://www.tnteu.ac.in/" target="_blank">TNTEU</a></li>
                                                 </ul>
                                             </li>
                                             <li class="mega_menu_dropdown">
@@ -249,142 +252,290 @@
         <div class="col-lg-6 mt-5">
             <div class="section_tittle">
                 <h2>Gallery</h2>
-                <!-- <p>Jeffrey crikey victoria sponge mush spiffing super arse over
-                tit matie boy smashing. The little rotter off his nut codswallop.!</p> -->
             </div>
         </div>
     </div>
 
+   <div class="container gallery">
+    <div id="learn-press-course-tabs" class="course-tabs" bis_skin_checked="1">
+        <input type="radio" name="learn-press-course-tab-radio" id="tab-overview-input" checked="checked" value="overview">
+        <input type="radio" name="learn-press-course-tab-radio" id="tab-curriculum-input" value="curriculum">
+        <input type="radio" name="learn-press-course-tab-radio" id="tab-instructor-input" value="instructor">
+        <input type="radio" name="learn-press-course-tab-radio" id="tab-faqs-input" value="faqs">
+        <ul class="learn-press-nav-tabs course-nav-tabs" data-tabs="4"> 
+             <li class="course-nav course-nav-tab-curriculum active">
+                <label for="tab-curriculum-input">Classroom</label>
+            </li>   
+            <li class="course-nav course-nav-tab-overview ">
+                <label for="tab-overview-input">Lab</label>
+            </li>      
+               
+            <li class="course-nav course-nav-tab-instructor">
+                <label for="tab-instructor-input">Events</label>
+            </li>    
+            <li class="course-nav course-nav-tab-faqs">
+                <label for="tab-faqs-input">Faculty Member</label>
+            </li>  
+        </ul>
+        <div class="course-tab-panels" bis_skin_checked="1">
+            <div class="course-tab-panel-overview course-tab-panel" id="tab-overview" bis_skin_checked="1">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Lab/Class Roon.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Lab/Class Roon.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Lab/Computer Lab.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Lab/Computer Lab.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Lab/Liblary.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Lab/Liblary.JPG" class="img-fluid">
+                        </a>
+                    </div>
 
-    <!-- courses part here -->
-    <div id="content" class="site-content" bis_skin_checked="1" data-aos="fade-up" data-aos-easing="linear"
-        data-aos-duration="1400">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Lab/Multi Purpose Hall.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Lab/Multi Purpose Hall.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Lab/Physical science Lab.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Lab/Physical science Lab.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Lab/PLAY.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Lab/PLAY.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Lab/psychology lab.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Lab/psychology lab.jpg" class="img-fluid">
+                        </a>
+                    </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/National Seminar/ns1.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/National Seminar/ns1.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/National Seminar/ns2.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/National Seminar/ns2.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/National Seminar/ns3.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/National Seminar/ns3.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/National Seminar/ns4.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/National Seminar/ns4.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/National Seminar/ns5.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/National Seminar/ns5.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/National Seminar/ns6.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/National Seminar/ns6.JPG" class="img-fluid">
-                    </a>
-                </div>
+                    </div>
+            </div>
+            <div class="course-tab-panel-curriculum course-tab-panel" id="tab-curriculum" bis_skin_checked="1">                
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c1.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c1.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c2.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c2.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c3.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c3.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c4.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c4.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c5.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c5.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c6.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c6.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c7.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c7.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c8.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c8.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c9.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c9.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c10.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c10.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c11.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c11.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c12.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c12.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c13.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c13.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Classroom/c14.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Classroom/c14.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+
+                    </div>
+            </div>
+            <div class="course-tab-panel-instructor course-tab-panel" id="tab-instructor" bis_skin_checked="1">     
+                <div class="row">
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns1.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns1.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns2.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns2.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns3.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns3.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns1.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns1.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns4.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns4.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns5.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns5.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns6.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns6.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns7.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns7.JPG" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/National Seminar/ns9.png" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/National Seminar/ns9.png" class="img-fluid">
+                        </a>
+                    </div> -->
 
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Faculty members/DSC_9263.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Faculty members/DSC_9263.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Faculty members/DSC_9264.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Faculty members/DSC_9264.JPG" class="img-fluid">
-                    </a>
-                </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y.jpeg" class="img-fluid">
+                        </a>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y1.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y1.jpeg" class="img-fluid">
+                        </a>
+                    </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Faculty members/DSC_9267.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Faculty members/DSC_9267.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Faculty members/DSC_9268.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Faculty members/DSC_9268.JPG" class="img-fluid">
-                    </a>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="img/Gallery/Faculty members/WhatsApp Image 2023-06-16 at 3.56.04 PM.jpeg" data-toggle="lightbox" data-gallery="gallery">
-              <img src="img/Gallery/Faculty members/WhatsApp Image 2023-06-16 at 3.56.04 PM.jpeg" class="img-fluid">
-            </a>
-        </div> -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Student Internship/si1.jpeg" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Student Internship/si1.jpeg" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Student Internship/si2.jpeg" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Student Internship/si2.jpeg" class="img-fluid">
-                    </a>
-                </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y2.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y2.jpeg" class="img-fluid">
+                        </a>
+                    </div>
 
-                
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Lab/Class Roon.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Lab/Class Roon.JPG" class="img-fluid">
-                    </a>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y3.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y3.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y4.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y4.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y5.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y5.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y6.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y6.jpeg" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/yogaDay/y7.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/yogaDay/y7.jpeg" class="img-fluid">
+                        </a>
+                    </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Lab/Computer Lab.jpg" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Lab/Computer Lab.jpg" class="img-fluid">
-                    </a>
+            </div>
+            <div class="course-tab-panel-faqs course-tab-panel" id="tab-faqs" bis_skin_checked="1">           
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Faculty members/DSC_9263.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Faculty members/DSC_9263.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Faculty members/DSC_9264.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Faculty members/DSC_9264.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Faculty members/DSC_9267.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Faculty members/DSC_9267.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Faculty members/DSC_9268.JPG" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Faculty members/DSC_9268.JPG" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <a href="img/Gallery/Faculty members/WhatsApp Image 2023-06-16 at 3.56.04 PM.jpeg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="img/Gallery/Faculty members/WhatsApp Image 2023-06-16 at 3.56.04 PM.jpeg" class="img-fluid">
+                        </a>
+                    </div>
                 </div>
-
-                
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Lab/Liblary.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Lab/Liblary.JPG" class="img-fluid">
-                    </a>
-                </div>
-
-                
-                <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Lab/Multi Purpose Hall.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Lab/Multi Purpose Hall.JPG" class="img-fluid">
-                    </a>
-                </div> -->
-
-                
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Lab/Physical science Lab.jpg" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Lab/Physical science Lab.jpg" class="img-fluid">
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Lab/PLAY.jpg" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Lab/PLAY.jpg" class="img-fluid">
-                    </a>
-                </div>
-
-                
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="img/Gallery/Lab/psychology lab.JPG" data-toggle="lightbox" data-gallery="gallery">
-                        <img src="img/Gallery/Lab/psychology lab.jpg" class="img-fluid">
-                    </a>
-                </div>
-
             </div>
         </div>
-
-
     </div>
-    <!-- courses part end -->
+   </div>
+
+
 
     <!-- footer part here -->
     <footer class="footer_section">
